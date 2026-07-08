@@ -1,81 +1,166 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CineReview - Meu Blog de Filmes e Séries</title>
     <style>
- body {
- font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 line-height: 1.6;
 margin: 0;
 padding: 0;
- background-color: #f4f4f9;
- color: #333;
-}
+background-color: #f4f4f9;
+color: #333;
+        }
 header {
 background-color: #1a1a2e;
-color: #fff;
-padding: 2rem;
+color: white;
 text-align: center;
-}
+padding: 35px;
+        }
 header h1 {
 margin: 0;
-ont-size: 2.5rem;
-}
+font-size: 2.8rem;
+color: #ffffff;
+        }
 header p {
-margin: 0.5rem 0 0 0;
-            color: #e94560;
-            font-weight: bold;
+color: #ff5c8d;
+font-weight: bold;
+font-size: 18px;
+        }
+nav {
+background-color: #16213e;
+text-align: center;
+padding: 15px;
+        }
+nav a {
+color: white;
+text-decoration: none;
+margin: 20px;
+font-weight: bold;
+        }
+nav a:hover {
+color: #ff5c8d;
         }
         main {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 0 1rem;
+max-width: 850px;
+margin: auto;
+padding: 20px;
         }
-        .post {
-            background: #fff;
-            padding: 1.5rem;
-            margin-bottom: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+.boas-vindas {
+background: white;
+padding: 20px;
+border-radius: 10px;
+margin-bottom: 25px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+        }
+.boas-vindas h2 {
+color: #1a1a2e;
+        }
+.post {
+background: white;
+margin-bottom: 25px;
+padding: 25px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
         }
 .post h2 {
- margin-top: 0;
 color: #1a1a2e;
-}
-.rating {
- color: #ffc107;
-            font-weight: bold;
+margin-top: 0;
         }
-        footer {
-            text-align: center;
-            padding: 2rem;
-            background-color: #1a1a2e;
-            color: #fff;
-            margin-top: 4rem;
+.rating {
+color: #f5b301;
+font-size: 18px;
+font-weight: bold;
+        }
+        .categoria {
+color: #ff5c8d;
+font-weight: bold;
+        }
+footer {
+background-color: #1a1a2e;
+color: white;
+text-align: center;
+padding: 20px;
+margin-top: 40px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>CineReview 🎬</h1>
-        <p>Espaço para compartilhar minhas notas e opiniões sobre filmes e séries</p>
+        <h1>🎬 CineReview</h1>
+<p>Meu cantinho para avaliar filmes e séries!</p>
     </header>
-    <main>
-        <article class="post">
-            <h2>Interestelar (2014)</h2>
-            <p class="rating">Nota: ★★★★★ (5/5)</p>
-            <p>Uma obra-prima da ficção científica. A trilha sonora de Hans Zimmer e a direção de Christopher Nolan criam uma experiência visual e emocional única sobre o tempo, amor e exploração espacial.</p>
+<nav>
+<a href="#">Início</a>
+<a href="#">Filmes</a>
+<a href="#">Séries</a>
+<a href="#">Contato</a>
+</nav>
+ <main>
+    <section class="boas-vindas">
+     <h2>🍿 Bem-vindo(a)!</h2>
+            <p>
+Olá! Este é o <strong>CineReview</strong>, um blog criado para compartilhar
+minhas opiniões sobre alguns dos meus filmes e séries favoritos.
+Aqui você encontrará notas, comentários e recomendações para quem gosta
+de maratonar boas histórias.
+            </p>
+</section>
+<article class="post">
+<h2>🦸 Os Vingadores (2012)</h2>
+<p class="categoria">Categoria: Filme</p>
+<p class="rating">★★★★(5/5)</p>
+            <p>
+Um dos melhores filmes da Marvel. A reunião dos heróis foi muito bem
+feita, trazendo ação, humor e momentos inesquecíveis. É um filme que
+marcou o início de uma nova fase dos filmes de super-heróis.
+            </p>
 </article>
 <article class="post">
-<h2>Stranger Things - 4ª Temporada</h2>
-<p class="rating">Nota: ★★★★☆ (4/5)</p>
-<p>Uma das melhores temporadas da série. O vilão Vecna trouxe um tom de terror excelente e o desenvolvimento dos personagens continuou muito forte, apesar dos episódios longos.</p>
- </article>
+<h2>⚡ Harry Potter e a Pedra Filosofal (2001)</h2>
+<p class="categoria">Categoria: Filme</p>
+<p class="rating">★★★★★ (5/5)</p>
+            <p>
+Um clássico que apresenta o universo mágico de Hogwarts de uma forma encantadora
+encantadora. Os personagens são carismáticos e a história desperta a
+imaginação de pessoas de todas as idades.
+           </p>
+</article>
+<article class="post">
+<h2>🃏 Coringa (2019)</h2>
+<p class="categoria">Categoria: Filme</p>
+<p class="rating">★★★★★ (5/5)</p>
+            <p>
+Um filme intenso e muito bem produzido. A atuação de Joaquin Phoenix é
+excelente e mostra a transformação de Arthur Fleck de maneira
+emocionante e impactante.
+           </p>
+</article>
+<article class="post">
+<h2>🏝️ Outer Banks</h2>
+<p class="categoria">Categoria: Série</p>
+<p class="rating">★★★★☆ (4/5)</p>
+            <p>
+Mistura aventura, mistério e romance em uma história cheia de reviravoltas.
+Os personagens são divertidos e a busca pelo tesouro deixa cada episódio
+ainda mais emocionante.
+            </p>
+</article>
+<article class="post">
+<h2>🏥 Grey's Anatomy</h2>
+<p class="categoria">Categoria: Série</p>
+<p class="rating">★★★★★ (5/5)</p>
+            <p>
+Uma das séries médicas mais conhecidas do mundo. Além dos casos no
+hospital, mostra histórias de amizade, amor e superação, fazendo o
+público se emocionar em vários momentos.
+            </p>
+</article>
 </main>
 <footer>
-<p>&copy; 2026 - Desenvolvido por Mim no GitHub</p>
+<p>🎥 CineReview © 2026 | Projeto desenvolvido para estudos de HTML.</p>
 </footer>
 </body>
 </html>
