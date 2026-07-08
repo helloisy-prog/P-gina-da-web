@@ -1,20 +1,81 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CineReview - Meu Blog de Filmes e Séries</title>
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
+ body {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+line-height: 1.6;
+margin: 0;
+padding: 0;
+ background-color: #f4f4f9;
+ color: #333;
+}
+header {
+background-color: #1a1a2e;
+color: #fff;
+padding: 2rem;
+text-align: center;
+}
+header h1 {
+margin: 0;
+ont-size: 2.5rem;
+}
+header p {
+margin: 0.5rem 0 0 0;
+            color: #e94560;
+            font-weight: bold;
         }
-        header {
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .post {
+            background: #fff;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+.post h2 {
+ margin-top: 0;
+color: #1a1a2e;
+}
+.rating {
+ color: #ffc107;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
             background-color: #1a1a2e;
             color: #fff;
-            padding: 2rem;
-            text-align: center;
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CineReview 🎬</h1>
+        <p>Espaço para compartilhar minhas notas e opiniões sobre filmes e séries</p>
+    </header>
+    <main>
+        <article class="post">
+            <h2>Interestelar (2014)</h2>
+            <p class="rating">Nota: ★★★★★ (5/5)</p>
+            <p>Uma obra-prima da ficção científica. A trilha sonora de Hans Zimmer e a direção de Christopher Nolan criam uma experiência visual e emocional única sobre o tempo, amor e exploração espacial.</p>
+        </article>
+        <article class="post">
+            <h2>Stranger Things - 4ª Temporada</h2>
+            <p class="rating">Nota: ★★★★☆ (4/5)</p>
+            <p>Uma das melhores temporadas da série. O vilão Vecna trouxe um tom de terror excelente e o desenvolvimento dos personagens continuou muito forte, apesar dos episódios longos.</p>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2026 - Desenvolvido por Mim no GitHub</p>
+    </footer>
+</body>
+</html>
