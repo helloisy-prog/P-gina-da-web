@@ -154,7 +154,7 @@ Os personagens são divertidos e a busca pelo tesouro deixa cada episódio
 ainda mais emocionante.
             </p>
 <button>❤️<span>0</span></button>
-<button>👎​<span>0</span></button>            
+<button>👎​<span>0</span></button>              
 </article>
 <article class="post">
 <h2>🏥 Grey's Anatomy</h2>
@@ -166,8 +166,8 @@ hospital, mostra histórias de amizade, amor e superação, fazendo o
 público se emocionar em vários momentos.
             </p>
 <button>❤️<span>0</span></button>
-<button>❤️<span>0</span></button>
-</article>
+<button>👎​<span>0</span></button>  
+        </article>
 </main>
 <footer>
 <p>🎥 CineReview © 2026 | Projeto desenvolvido para estudos de HTML.</p>
@@ -175,14 +175,14 @@ público se emocionar em vários momentos.
 </body>
 <button>️<span>0</span></button>
 <script>
-    botoes.forEach(function(botao) {
-botao.addEventListener("click", botaoClicado);
-
-function botaoClicado() {
+   const botao = document.querySelector("button");
+   botao.addEventListener("click", botaoClicado);
+   function botaoClicado() {
 console.log("fui clicado");
+}
+function botaoClicado() {
 let texto = botao.querySelector("span");
 texto.textContent++;
 }
-});
 </script>
 </html>
