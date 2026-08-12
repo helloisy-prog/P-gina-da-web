@@ -1,188 +1,268 @@
 <!DOCTYPE html>
-<html lang="pt-BR"> 
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CineReview - Meu Blog de Filmes e Séries</title>
+
     <style>
-body {
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-line-height: 1.6;
-margin: 0;
-padding: 0;
-background-color: #f4f4f9;
-color: #333;
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
         }
-header {
-background-color: #1a1a2e;
-color: white;
-text-align: center;
-padding: 35px;
+
+        header {
+            background-color: #1a1a2e;
+            color: white;
+            text-align: center;
+            padding: 35px;
         }
-header h1 {
-margin: 0;
-font-size: 2.8rem;
-color: #ffffff;
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            color: #ffffff;
         }
-header p {
-color: #ff5c8d;
-font-weight: bold;
-font-size: 18px;
+
+        header p {
+            color: #ff5c8d;
+            font-weight: bold;
+            font-size: 18px;
         }
-nav {
-background-color: #16213e;
-text-align: center;
-padding: 15px;
+
+        nav {
+            background-color: #16213e;
+            text-align: center;
+            padding: 15px;
         }
-nav a {
-color: white;
-text-decoration: none;
-margin: 20px;
-font-weight: bold;
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+            font-weight: bold;
         }
-nav a:hover {
-color: #ff5c8d;
+
+        nav a:hover {
+            color: #ff5c8d;
         }
+
         main {
-max-width: 850px;
-margin: auto;
-padding: 20px;
+            max-width: 850px;
+            margin: auto;
+            padding: 20px;
         }
-.boas-vindas {
-background: white;
-padding: 20px;
-border-radius: 10px;
-margin-bottom: 25px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+
+        .boas-vindas {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
         }
-.boas-vindas h2 {
-color: #1a1a2e;
+
+        .boas-vindas h2 {
+            color: #1a1a2e;
         }
-.post {
-background: white;
-margin-bottom: 25px;
-padding: 25px;
-border-radius: 10px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+
+        .post {
+            background: white;
+            margin-bottom: 25px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
         }
-.post h2 {
-color: #1a1a2e;
-margin-top: 0;
+
+        .post h2 {
+            color: #1a1a2e;
+            margin-top: 0;
         }
-.rating {
-color: #f5b301;
-font-size: 18px;
-font-weight: bold;
+
+        .rating {
+            color: #f5b301;
+            font-size: 18px;
+            font-weight: bold;
         }
+
         .categoria {
-color: #ff5c8d;
-font-weight: bold;
+            color: #ff5c8d;
+            font-weight: bold;
         }
-footer {
-background-color: #1a1a2e;
-color: white;
-text-align: center;
-padding: 20px;
-margin-top: 40px;
+
+        button {
+            background-color: #f4f4f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 8px 12px;
+            margin-right: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #1a1a2e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
         }
     </style>
+
 </head>
+
 <body>
+
     <header>
         <h1>🎬 CineReview</h1>
-<p>Meu cantinho para avaliar filmes e séries!</p>
+        <p>Meu cantinho para avaliar filmes e séries!</p>
     </header>
-<nav>
-<a href="#">Início</a>
-<a href="#">Filmes</a>
-<a href="#">Séries</a>
-<a href="#">Contato</a>
-</nav>
- <main>
-    <section class="boas-vindas">
-     <h2>🍿 Bem-vindo(a)!</h2>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Filmes</a>
+        <a href="#">Séries</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <main>
+
+        <section class="boas-vindas">
+            <h2>🍿 Bem-vindo(a)!</h2>
+
             <p>
-Olá! Este é o <strong>CineReview</strong>, um blog criado para compartilhar
-minhas opiniões sobre alguns dos meus filmes e séries favoritos.
-Aqui você encontrará notas, comentários e recomendações para quem gosta
-de maratonar boas histórias.
+                Olá! Este é o <strong>CineReview</strong>, um blog criado para compartilhar
+                minhas opiniões sobre alguns dos meus filmes e séries favoritos.
+                Aqui você encontrará notas, comentários e recomendações para quem gosta
+                de maratonar boas histórias.
             </p>
-</section>
-<article class="post">
-<h2>🦸 Os Vingadores (2012)</h2>
-<p class="categoria">Categoria: Filme</p>
-<p class="rating">★★★★(5/5)</p>
+        </section>
+
+        <article class="post">
+
+            <h2>🦸 Os Vingadores (2012)</h2>
+
+            <p class="categoria">Categoria: Filme</p>
+
+            <p class="rating">★★★★★ (5/5)</p>
+
             <p>
-Um dos melhores filmes da Marvel. A reunião dos heróis foi muito bem
-feita, trazendo ação, humor e momentos inesquecíveis. É um filme que
-marcou o início de uma nova fase dos filmes de super-heróis.
+                Um dos melhores filmes da Marvel. A reunião dos heróis foi muito bem
+                feita, trazendo ação, humor e momentos inesquecíveis. É um filme que
+                marcou o início de uma nova fase dos filmes de super-heróis.
             </p>
-<button>❤️<span>0</span></button>
-<button>👎​<span>0</span></button>            
-</article>
-<article class="post">
-<h2>⚡ Harry Potter e a Pedra Filosofal (2001)</h2>
-<p class="categoria">Categoria: Filme</p>
-<p class="rating">★★★★★ (5/5)</p>
-            <p>
-Um clássico que apresenta o universo mágico de Hogwarts de uma forma encantadora
-encantadora. Os personagens são carismáticos e a história desperta a
-imaginação de pessoas de todas as idades.
-           </p>
-<button>❤️<span>0</span></button>
-<button>👎​<span>0</span></button>           
-</article>
-<article class="post">
-<h2>🃏 Coringa (2019)</h2>
-<p class="categoria">Categoria: Filme</p>
-<p class="rating">★★★★★ (5/5)</p>
-            <p>
-Um filme intenso e muito bem produzido. A atuação de Joaquin Phoenix é
-excelente e mostra a transformação de Arthur Fleck de maneira
-emocionante e impactante.
-           </p>
- <button>❤️<span>0</span></button>
-<button>👎​<span>0</span></button>                     
-</article>
-<article class="post">
-<h2>🏝️ Outer Banks</h2>
-<p class="categoria">Categoria: Série</p>
-<p class="rating">★★★★☆ (4/5)</p>
-            <p>
-Mistura aventura, mistério e romance em uma história cheia de reviravoltas.
-Os personagens são divertidos e a busca pelo tesouro deixa cada episódio
-ainda mais emocionante.
-            </p>
-<button>❤️<span>0</span></button>
-<button>👎​<span>0</span></button>              
-</article>
-<article class="post">
-<h2>🏥 Grey's Anatomy</h2>
-<p class="categoria">Categoria: Série</p>
-<p class="rating">★★★★★ (5/5)</p>
-            <p>
-Uma das séries médicas mais conhecidas do mundo. Além dos casos no
-hospital, mostra histórias de amizade, amor e superação, fazendo o
-público se emocionar em vários momentos.
-            </p>
-<button>❤️<span>0</span></button>
-<button>👎​<span>0</span></button>  
+
+            <button>❤️ <span>0</span></button>
+            <button>👎 <span>0</span></button>
+
         </article>
-</main>
-<footer>
-<p>🎥 CineReview © 2026 | Projeto desenvolvido para estudos de HTML.</p>
-</footer>
+
+        <article class="post">
+
+            <h2>⚡ Harry Potter e a Pedra Filosofal (2001)</h2>
+
+            <p class="categoria">Categoria: Filme</p>
+
+            <p class="rating">★★★★★ (5/5)</p>
+
+            <p>
+                Um clássico que apresenta o universo mágico de Hogwarts de forma
+                encantadora. Os personagens são carismáticos e a história desperta a
+                imaginação de pessoas de todas as idades.
+            </p>
+
+            <button>❤️ <span>0</span></button>
+            <button>👎 <span>0</span></button>
+
+        </article>
+
+        <article class="post">
+
+            <h2>🃏 Coringa (2019)</h2>
+
+            <p class="categoria">Categoria: Filme</p>
+
+            <p class="rating">★★★★★ (5/5)</p>
+
+            <p>
+                Um filme intenso e muito bem produzido. A atuação de Joaquin Phoenix é
+                excelente e mostra a transformação de Arthur Fleck de maneira
+                emocionante e impactante.
+            </p>
+
+            <button>❤️ <span>0</span></button>
+            <button>👎 <span>0</span></button>
+
+        </article>
+
+        <article class="post">
+
+            <h2>🏝️ Outer Banks</h2>
+
+            <p class="categoria">Categoria: Série</p>
+
+            <p class="rating">★★★★☆ (4/5)</p>
+
+            <p>
+                Mistura aventura, mistério e romance em uma história cheia de reviravoltas.
+                Os personagens são divertidos e a busca pelo tesouro deixa cada episódio
+                ainda mais emocionante.
+            </p>
+
+            <button>❤️ <span>0</span></button>
+            <button>👎 <span>0</span></button>
+
+        </article>
+
+        <article class="post">
+
+            <h2>🏥 Grey's Anatomy</h2>
+
+            <p class="categoria">Categoria: Série</p>
+
+            <p class="rating">★★★★★ (5/5)</p>
+
+            <p>
+                Uma das séries médicas mais conhecidas do mundo. Além dos casos no
+                hospital, mostra histórias de amizade, amor e superação, fazendo o
+                público se emocionar em vários momentos.
+            </p>
+
+            <button>❤️ <span>0</span></button>
+            <button>👎 <span>0</span></button>
+
+        </article>
+
+    </main>
+
+    <footer>
+        <p>🎥 CineReview © 2026 | Projeto desenvolvido para estudos de HTML.</p>
+    </footer>
+
+    <script>
+
+        let botoes = document.querySelectorAll("button");
+
+        botoes.forEach(function (botao) {
+
+            botao.addEventListener("click", botaoClicado);
+
+            function botaoClicado() {
+
+                let texto = botao.querySelector("span");
+
+                texto.textContent++;
+
+            }
+
+        });
+
+    </script>
+
 </body>
-<button>️<span>0</span></button>
-<script>
-   const botao = document.querySelector("button");
-   botao.addEventListener("click", botaoClicado);
-   function botaoClicado() {
-console.log("fui clicado");
-}
-function botaoClicado() {
-let texto = botao.querySelector("span");
-texto.textContent++;
-}
-</script>
+
 </html>
