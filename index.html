@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CineReview - Meu Blog de Filmes e Séries</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
@@ -132,30 +131,7 @@
         </article>
 
     </main>
-
-    <footer>
-        <p>🎥 CineReview © 2026 | Projeto desenvolvido para estudos de HTML.</p>
-    </footer>
-
-    <script>
-
-        let botoes = document.querySelectorAll("button");
-
-        botoes.forEach(function (botao) {
-
-            botao.addEventListener("click", botaoClicado);
-
-            function botaoClicado() {
-
-                let texto = botao.querySelector("span");
-
-                texto.textContent++;
-
-            }
-
-        });
-
-    </script>
+    <script src="script.js"></script>
 
 </body>
 
